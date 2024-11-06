@@ -1,0 +1,127 @@
+body {
+    background-color: #D1916C;
+    color: rgb(58, 77, 110);
+    font-family: 'Cactus Classical Serif', serif;
+}
+
+.page-container {
+    background-color: #F0C5AD;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+section {
+    background-color: rgb(206, 240, 238);
+    border-radius: 8px;
+    padding: 10px;
+    position: relative;
+}
+
+.main-section {
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+aside, footer {
+    background-color: rgb(255, 243, 166);
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-text {
+    font-size: smaller;
+    padding: 3px;
+    margin: 3px;
+}
+
+.main-aside {
+    width: 28%;
+}
+
+.flex-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.photo-main {
+    max-width: 300px;
+    float: right;
+    margin: 10px;
+}
+
+.aside-header {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: rgb(58, 77, 110);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color: #D1916C;
+}
+
+li {
+    padding-bottom: 10px;
+}
+
+td, th {
+    border-color: rgb(58, 77, 110);
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px;
+}
+
+th {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.form-container {
+    margin-top: 10px;
+}
+
+.formitem {
+    position: relative;
+    margin: 10px;
+    left: 2px;
+}
+
+.textbox {
+    position: absolute;
+    left: 200px;
+}
+
+#question {
+    width: 500px;
+    height: 50px;
+}
+
+.errormessage {
+    color: red;
+    display: none;
+}
+
+.error {
+    border-color: red;
+    border-width: 3px;
+}
+
+
